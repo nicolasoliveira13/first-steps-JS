@@ -16,7 +16,7 @@ a{
 .index-lista li{
     font-size: 50px;
     padding: 10px;
-    margin: 2px;
+    margin: 5px;
     border-radius: 15px;
     width: 200px;
     height: 200px;
@@ -28,4 +28,35 @@ a{
 
 .index-lista li:hover{
     background-color: #ff9100;
+}
+
+.lista-ex{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.lista-ex li{
+    font-size: 40px;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 15px;
+    width: 200px;
+    height: 200px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 5px 15px 15px;
+}
+
+.lista-ex li:hover{
+    background-color: #12d800;
+}
+
+.container .lista-ex li p{
+    font-size: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
 }
