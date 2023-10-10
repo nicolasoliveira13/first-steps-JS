@@ -6,6 +6,7 @@ a{
 .container{
     overflow: hidden;
     width: 100%;
+    
 }
 
 .index-lista{
@@ -59,4 +60,9 @@ a{
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
+}
+
+.button{
+    width: 100px;
+    height: 40px;
 }
